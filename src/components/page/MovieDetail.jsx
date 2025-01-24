@@ -50,7 +50,7 @@ const MovieDetail = () => {
       
       {/* 
        */}
-      <iframe className="flex justify-center align-center m-auto" width="800" height="500" allowFullScreen src={`https://www.youtube.com/embed/${item?.key}`} title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowfullscreen></iframe>
+      <iframe className="flex justify-center align-center m-auto w-full min-h-32" height={400} allowFullScreen src={`https://www.youtube.com/embed/${item?.key}`} title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowfullscreen></iframe>
       {/* <p className="text-md">Rating: {item.vote_average} / 10</p>
       
       <img

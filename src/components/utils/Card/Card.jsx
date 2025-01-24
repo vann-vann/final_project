@@ -15,7 +15,7 @@ const Card = ({
     "https://via.placeholder.com/400x300?text=No+Image+Available";
 
   return (
-   
+  //  <section  className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
     <div className="w-full  max-w-sm rounded-lg shadow dark:bg-gray-800 bg-red-950 dark:border-gray-700 overflow-hidden ">
  
       <Link to={`/movie/${id}`}>
